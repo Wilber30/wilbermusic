@@ -9,6 +9,7 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       'antique': '#faebd7',
+      'biscuit': '#F2D2BD',
       'white': '#ffffff',
       'purple': '#3f3cbb',
       'midnight': '#121063',
