@@ -12,5 +12,8 @@
     "url": "git+https://github.com/Wilber30/wilbermusic.git"
   },
   "author": "Wilber Sears",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
 }
