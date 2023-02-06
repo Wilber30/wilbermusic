@@ -1,0 +1,12 @@
+{
+  "name": "wilbermusic",
+  "version": "1.0.0",
+  "description": "A site to showcase my music projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-localhost": "php -S localhost:8000"
+  },
+  "author": "Wilber Sears",
+  "license": "ISC"
+}
