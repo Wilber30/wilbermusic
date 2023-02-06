@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "run-localhost": "php -S localhost:8000"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wilber30/wilbermusic.git"
+  },
   "author": "Wilber Sears",
   "license": "ISC"
 }
