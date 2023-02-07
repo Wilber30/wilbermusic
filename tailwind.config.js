@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.php", "./src/js/.js"],
+  content: ["./templates/**/*.{html,php,js}", "./index.php", "./src/js/.js"],
   theme: {
     fontFamily: {
       'Special': ["Shrikhand", 'serif']
@@ -18,21 +18,32 @@ module.exports = {
       'silver': '#ecebff',
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
+      'grey': '#D8D8D8',
+      'dark-grey': '#787878'
     },
     extend: {
       backgroundImage: {
         'hero-banner': "url('/assets/images/My favourite.JPG')",
       },
       keyframes: {
-        'open-menu': {
+        'small-open-menu': {
           '0%': { transform: 'scaleY(0)' },
           '80%': { transform: 'scaleY(1.2)' },
           '100%': { transform: 'scaleY(1)' },
         },
+        'large-open-menu-icon': {
+          '100%': { transform: 'rotate(180deg)' },
+        },
+        'large-open-menu': {
+          '0%': { transform: 'translate(24px, 0px)' },
+          '100%': { transform: 'translate(-42px, 0px)' },
+        },
+
       },
       animation: {
-        'open-menu': 'open-menu 0.5s ease-in-out forwards',
-        'fade-out': 'fadeOut 2s ease-in'
+        'small-open-menu': 'small-open-menu 0.5s ease-in-out forwards',
+        'large-open-menu-icon': 'large-open-menu-icon 0.5s ease-in-out forwards',
+        'large-open-menu': 'large-open-menu 0.5s ease-in-out forwards'
       }
      },
     },
