@@ -4,7 +4,7 @@
     <div class="relative">
         <div class="h-screen bg-cover bg-bottom bg-hero-banner">
           <?php include 'templates/layout/header.php' ?>
-
+          <?php include 'templates/layout/side_navigation.php' ?>
           <div class="container mx-auto">
             <div class="flex justify-center">
               <h1 id="banner-heading" class="mt-24 font-Special text-5xl lg:text-6xl text-biscuit drop-shadow-xl font-outline-2 animate-fade-in">
