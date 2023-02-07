@@ -10,7 +10,9 @@
   <title>Wilber Sears Music</title>
   <!-- Stylesheet links -->
   <link rel="stylesheet" href="../dist/output.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+  <script src="/src/js/main.js" defer></script>
 </head>
