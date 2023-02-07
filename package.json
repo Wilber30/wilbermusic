@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run-localhost": "php -S localhost:8000",
+    "localhost": "php -S localhost:8000",
     "dev": "npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
   }
 }
