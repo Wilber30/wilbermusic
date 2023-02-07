@@ -3,7 +3,7 @@
         &#9776;
     </button>
     
-    <section id="mobile-menu" class="flex-col origin-top animate-open-menu hidden">
+    <section id="mobile-menu" class="flex-col origin-top animate-small-open-menu hidden">
         <button class="text-5xl px-2 mb-1 text-end">
         &times;
         </button>
