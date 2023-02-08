@@ -1,17 +1,16 @@
 const initApp = () => {
-    const hamburgerBtn = document.getElementById('hamburger-btn')
+    const hamburgerBtn = document.getElementById('hamburger-button')
     const largeBurgerBtn = document.getElementById('lg-hamburger-btn')
     const mobileMenu = document.getElementById('mobile-menu')
     const sideNav = document.getElementById('side-nav')
     const bannerHeading =document.getElementById('banner-heading')
 
     const toggleMenu = () => {
-        mobileMenu.classList.toggle('hidden')
-        mobileMenu.classList.toggle('flex')
-        hamburgerBtn.classList.toggle('flex')
-        hamburgerBtn.classList.toggle('hidden')
+        hamburgerBtn.classList.toggle('toggle-btn')
         bannerHeading.classList.toggle('flex')
         bannerHeading.classList.toggle('hidden')
+        mobileMenu.classList.toggle('hidden')
+        mobileMenu.classList.toggle('flex')
     }
 
     const toggleNav = () => {
