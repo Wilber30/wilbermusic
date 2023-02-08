@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./templates/**/*.{html,php,js}", "./index.php", "./src/js/.js"],
+  content: ["./templates/**/*.{html,php,js}", "./index.php", "./src/js/main.js"],
   theme: {
     fontFamily: {
       'Special': ["Shrikhand", 'serif']
@@ -43,7 +43,7 @@ module.exports = {
       animation: {
         'small-open-menu': 'small-open-menu 0.5s ease-in-out forwards',
         'large-open-menu-icon': 'large-open-menu-icon 0.5s ease-in-out forwards',
-        'large-open-menu': 'large-open-menu 0.5s ease-in-out forwards'
+        'large-open-menu': 'large-open-menu 0.5s ease-in-out forwards',
       }
      },
     },
