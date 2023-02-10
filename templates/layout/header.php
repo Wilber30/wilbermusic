@@ -21,28 +21,30 @@
         </div>
         
         <div id="mobile-menu" class="origin-top animate-small-open-menu hidden">
-            <nav class="bg-antique opacity-90 top-12 right-0 w-screen">
-                <h2 class="text-2xl text-center font-Special font-outline-2 text-white">
+            <nav class="flex flex-col justify-evenly gap-4 text-center bg-antique opacity-90 top-12 right-0 w-screen">
+                <h2 class="text-4xl font-Special font-outline-2 text-white">
                     Wilber Sears
                 </h2>
 
-                <ul class="text-center mb-4">
-                    <li><a href="#" class="hover:opacity-80 inline-block">Home</a></li>
+                <ul class="mb-4">
+                    <li><a href="#" class="mb-4 hover:opacity-80 inline-block">Home</a></li>
 
-                    <li><a href="#" class="hover:opacity-80 inline-block">About Me</a></li>
+                    <li><a href="#" class="mb-4 hover:opacity-80 inline-block">About Me</a></li>
 
-                    <li><a href="#" class="hover:opacity-80 inline-block">Latest Videos</a></li>
+                    <li><a href="#" class="mb-4 hover:opacity-80 inline-block">Latest Videos</a></li>
                     
-                    <li><a href="#" class="hover:opacity-80 inline-block">Contact</a></li>
+                    <li><a href="#" class="mb-4 hover:opacity-80 inline-block">Contact</a></li>
                 </ul>
 
-                <div class="flex justify-center gap-5 mb-4">
+                <div class="flex justify-center gap-5 text-xl mb-4">
                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
 
                     <a href="#"><i class="fa-brands fa-facebook"></i></a>
 
                     <a href="#"><i class="fa-brands fa-youtube"></i></a>
                 </div>
+
+                <p class="mb-6">&#169;Bellybones Records 2023</p>
             </nav>
         </div>
     </section>
