@@ -5,6 +5,7 @@ module.exports = {
     fontFamily: {
       'Special': ["Shrikhand", 'serif'],
       'Line': ['Noto Serif JP', 'serif'],
+      'Button': ['Roboto Slab', 'cursive']
     },
     colors: {
       transparent: 'transparent',
