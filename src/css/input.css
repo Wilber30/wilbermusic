@@ -13,7 +13,7 @@
       @apply font-Line text-lg font-semibold;
     }
     button {
-      @apply font-Line text-xl font-bold;
+      @apply font-Button text-xl font-bold;
     }
     p {
       @apply font-Line;
