@@ -9,6 +9,15 @@
     .font-outline-4 {
       -webkit-text-stroke: 4px black;
     } 
+    li {
+      @apply font-Line text-lg font-semibold;
+    }
+    button {
+      @apply font-Line text-xl font-bold;
+    }
+    p {
+      @apply font-Line;
+    }
   }
 
   @layer utilities {
