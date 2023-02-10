@@ -3,7 +3,8 @@ module.exports = {
   content: ["./templates/**/*.{html,php,js}", "./index.php", "./src/js/main.js"],
   theme: {
     fontFamily: {
-      'Special': ["Shrikhand", 'serif']
+      'Special': ["Shrikhand", 'serif'],
+      'Line': ['Noto Serif JP', 'serif'],
     },
     colors: {
       transparent: 'transparent',
@@ -34,16 +35,29 @@ module.exports = {
         'large-open-menu-icon': {
           '100%': { transform: 'rotate(180deg)' },
         },
-        'large-open-menu': {
-          '0%': { transform: 'translate(24px, 0px)' },
-          '100%': { transform: 'translate(-42px, 0px)' },
+        'large-menu-visible': {
+          '0%': { 
+          transform: 'translateX(100px)', 
+        },
+          '100%': { 
+            transform: 'translateX(0)',
+        },
+      },
+        'large-menu-invisible': {
+          '0%': { 
+            transform: 'translateX(0px)', 
+          },
+          '100%': { 
+            transform: 'translateX(100px)',
+          },
         },
 
       },
       animation: {
         'small-open-menu': 'small-open-menu 0.5s ease-in-out forwards',
         'large-open-menu-icon': 'large-open-menu-icon 0.5s ease-in-out forwards',
-        'large-open-menu': 'large-open-menu 0.5s ease-in-out forwards',
+        'large-menu-visible': 'large-menu-visible 0.5s ease-in-out',
+        'large-menu-invisible': 'large-menu-invisible 0.5s ease-in-out backwards',
       }
      },
     },
