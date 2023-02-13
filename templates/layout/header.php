@@ -1,27 +1,8 @@
-<div class="bg-antique opacity-90 md:hidden flex justify-end">
-   <section>
-        <div class="flex justify-end">
-            <button id="hamburger-button" class="relative w-16 h-14 cursor-pointer z-10">
-                <div class="bg-dark-grey w-8 h-1 rounded absolute top-7 -mt-0.5 
-                transition-all duration-500
-                before:content-[''] before:bg-dark-grey 
-                before:w-8 before:h-1
-                before:rounded before:absolute 
-                before:-translate-x-4
-                before:-translate-y-3
-                before:transition-all before:duration-500
-                after:content-[''] after:bg-dark-grey 
-                after:w-8 after:h-1
-                after:rounded after:absolute 
-                after:-translate-x-4
-                after:translate-y-3
-                after:transition-all after:duration-500
-                "></div>
-            </button>
-        </div>
-        
-        <div id="mobile-menu" class="origin-top animate-small-open-menu hidden">
-            <nav class="flex flex-col justify-evenly gap-4 text-center bg-antique opacity-90 top-12 right-0 w-screen">
+<div class= "opacity-90 lg:hidden flex justify-end absolute z-50">
+    <section>
+        <div id="small-nav-whole" class="origin-top relative">
+            <?php include './templates/components/header_button.php' ?>
+                <nav id="mobile-menu" class="flex flex-col justify-evenly gap-4 text-center bg-antique opacity-90 w-screen -translate-y-[120%] transition-all ease-in-out duration-500">
                 <h2 class="text-4xl font-Special font-outline-2 text-white">
                     Wilber Sears
                 </h2>
@@ -48,4 +29,4 @@
             </nav>
         </div>
     </section>
-</div>
+</div> 
