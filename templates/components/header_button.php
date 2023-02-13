@@ -1,5 +1,5 @@
-<div id="sm-header-button" class="flex bg-antique justify-end">
-    <button id="hamburger-button" class="relative w-16 h-14 cursor-pointer z-10">
+<div id="sm-header-button" class="flex bg-antique justify-end fixed w-full z-50">
+    <button id="sm-hamburger-button" class="relative w-16 h-14 cursor-pointer">
         <div class="bg-dark-grey w-8 h-1 rounded absolute top-7 -mt-0.5 
         transition-all duration-500
         before:content-[''] before:bg-dark-grey 
