@@ -23,6 +23,12 @@
   @layer utilities {
     .toggle-btn {
     @apply [&>div::before]:translate-y-0 [&>div::before]:rotate-45 
-    [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent
+    [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent;
+    }
+    .toggle-nav {
+     @apply translate-x-0 transition-all ease-in-out duration-500;
+    }
+    .toggle-header {
+      @apply translate-y-0 transition-all ease-in-out duration-500;
     }
   }
