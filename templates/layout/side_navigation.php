@@ -1,6 +1,6 @@
 
   
-  <div class="hidden md:flex h-screen fixed justify-center w-72 right-0">
+  <div class="hidden lg:flex h-screen fixed justify-center w-72 xl:w-96 right-0">
 
     <div class="flex justify-end mt-10">
       <button id="large-hamburger-button" class="relative w-16 h-14 cursor-pointer z-10 open">
@@ -22,7 +22,7 @@
         </button>
     </div>
     
-    <div id="side-nav" class="hidden justify-center bg-antique pt-10 opacity-90 w-11/12 animate-large-menu-visible">
+    <div id="side-nav" class="flex justify-center bg-antique pt-10 opacity-90 w-11/12 xl:w-full translate-x-full transition-all ease-in-out duration-500">
       <nav class="flex justify-evenly flex-col">
         <div>
           <ul class="text-center">
