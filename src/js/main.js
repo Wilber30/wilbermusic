@@ -22,7 +22,7 @@ const initApp = () => {
     const toggleNav = () => {
 			largeBurgerBtn.classList.toggle('toggle-btn')
 			sideNav.classList.toggle('toggle-nav')
-            wholeNavSection.classList.toggle('right-0')
+      wholeNavSection.classList.toggle('right-0')
     }
 
     smallHamburgerBtn.addEventListener('click', toggleMenu)
