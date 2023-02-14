@@ -1,4 +1,4 @@
-<div class="hidden lg:flex h-screen fixed justify-center w-72 xl:w-96 right-0">
+<div id="whole-nav-section" class="hidden lg:flex h-screen fixed justify-center w-72 xl:w-96 right-[-50px]">
     <?php include './templates/components/side-nav-button.php' ?>
   <div id="side-nav" class="flex justify-center bg-antique pt-10 opacity-90 w-11/12 xl:w-full translate-x-full transition-all ease-in-out duration-500">
     <nav class="flex justify-evenly flex-col">
