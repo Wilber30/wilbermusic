@@ -7,7 +7,7 @@
           <?php include 'templates/layout/side_navigation.php' ?>
           <div class="container mx-auto">
             <div class="flex justify-center">
-              <h1 id="banner-heading" class="mt-24 font-Special text-5xl lg:text-6xl text-biscuit drop-shadow-xl font-outline-2 animate-fade-in">
+              <h1 id="banner-heading" class="mt-44 lg:mt-36 xl:mt-32 font-Special text-5xl lg:text-6xl text-biscuit drop-shadow-xl font-outline-2 animate-fade-in">
                   Wilber Sears
               </h1>
             </div>
