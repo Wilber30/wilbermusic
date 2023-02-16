@@ -32,3 +32,15 @@
       @apply translate-y-14 transition-all ease-in-out duration-500;
     }
   }
+
+  @media (min-width: 320px) {
+  .latest-video {
+    width: 80%;
+  }
+}
+
+@media (min-width: 640px) {
+  .latest-video {
+    flex-grow: 1;
+  }
+}
