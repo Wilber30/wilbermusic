@@ -24,13 +24,15 @@
           </div>
         </div>
     </div>
-    <section>
+    <div>
       <div class="text-center my-10">
-        <div class="container mx-auto">
+        <div class="container sm:mx-auto">
           <h1 class="font-Line text-3xl">Latest Videos</h1>
 
-          <?php include 'templates/components/video-player.php' ?>
+         <div class="youtube-container flex flex-col md:flex-row gap-6 items-center justify-center mt-4">
+
+         </div>
         </div>
     </div>
-</section>
+</div>
 </body> 
