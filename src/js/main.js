@@ -15,6 +15,7 @@ const initApp = () => {
 			smallHamburgerBtn.classList.toggle('toggle-btn')
 			bannerHeading.classList.toggle('flex')
 			bannerHeading.classList.toggle('hidden')
+      bannerHeading.classList.toggle('animate-fade-in-text')
 			mobileMenu.classList.toggle('toggle-header')
 			smallHeaderButton.classList.add('bg-antique')
     }
@@ -22,7 +23,7 @@ const initApp = () => {
     const toggleNav = () => {
 			largeBurgerBtn.classList.toggle('toggle-btn')
 			sideNav.classList.toggle('toggle-nav')
-      wholeNavSection.classList.toggle('right-0')
+      wholeNavSection.classList.toggle('!right-0')
     }
 
     smallHamburgerBtn.addEventListener('click', toggleMenu)

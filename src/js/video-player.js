@@ -1,4 +1,6 @@
-fetch("https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UC9kU2JIBBbaHq8DD66_k_vA&maxResults=2&order=date&key=AIzaSyCD5Er8uK3EDBagis1L53xhRarPucBgE0U")
+var secretKey = config.SECRET_KEY;
+
+fetch("https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UC9kU2JIBBbaHq8DD66_k_vA&maxResults=2&order=date&key="+secretKey)
 .then((result) => {
   return result.json()
 }).then((data)=> {
