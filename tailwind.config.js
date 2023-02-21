@@ -11,8 +11,12 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       'antique': '#faebd7',
+      'khaki': '#bdb76b',
+      'black': '#000000',
+      'brown': '#a52a2a',
       'biscuit': '#F2D2BD',
       'white': '#ffffff',
+      'whitesmoke': '#f5f5f5',
       'purple': '#3f3cbb',
       'midnight': '#121063',
       'metal': '#565584',
@@ -21,7 +25,7 @@ module.exports = {
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
       'grey': '#D8D8D8',
-      'dark-grey': '#787878'
+      'dark-grey': '#787878',
     },
     extend: {
       backgroundImage: {
