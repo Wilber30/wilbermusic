@@ -12,11 +12,13 @@ fetch("https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=U
     <div class="latest-video flex flex-col">
       <iframe id="player" type="text/html" height="390" 
       src="https://www.youtube.com/embed/${video.id.videoId}" ></iframe>
-      <h3 class="font-Line">${video.snippet.title}</h3> 
+
+      <h3 class="video-header font-Line text-xl">${video.snippet.title}</h3> 
     </div>
     `
   }
 })
+
 
 
 
