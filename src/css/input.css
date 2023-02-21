@@ -44,3 +44,7 @@
     flex-grow: 1;
   }
 }
+
+.video-header {
+  margin-top: 20px;
+}
