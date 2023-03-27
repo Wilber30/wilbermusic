@@ -1,4 +1,4 @@
-<footer class="bg-khaki py-5">
+<footer class="bg-metal py-5">
   <div class="container mx-auto text-center text-white">
     <div class="flex justify-center gap-5 text-4xl mb-4">
       <a href="#"><i class="fa-brands fa-instagram"></i></a>
