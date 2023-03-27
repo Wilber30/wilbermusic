@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./templates/**/*.{html,php,js}", "./index.php", "./src/js/main.js"],
+  content: ["./templates/**/*.{html,php,js}", "./index.php", "./src/js/main.js", "./templates/pages/about.php"],
   theme: {
     fontFamily: {
       'Special': ["Shrikhand", 'serif'],
