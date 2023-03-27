@@ -19,8 +19,11 @@ const initApp = () => {
 			bannerHeading.classList.toggle('hidden')
       bannerHeading.classList.toggle('animate-fade-in-text')
 			mobileMenu.classList.toggle('toggle-header')
+      mobileMenu.classList.toggle('is-active')
 			smallHeaderButton.classList.add('bg-antique')
-      smallHeaderButton.classList.remove("border-b-4", "border-dark-grey")
+      smallHeaderButton.classList.toggle("border-b-4", "border-dark-grey")
+      smallHeaderButton.classList.toggle("border-none")
+      overlay.classList.toggle('!flex')
     }
 
     const toggleNav = () => {
@@ -47,14 +50,16 @@ const mobileMenu = document.getElementById('mobile-menu')
 window.addEventListener('scroll', () => {
   let scrollPosition = window.scrollY + 80;
 
-  if(scrollPosition >= 550) {
+  if(scrollPosition >= 500) {
     header.classList.add("opacity-100")
+    header.classList.remove("opacity-90")
     smallHeaderButton.classList.add("border-b-4", "border-dark-grey")
     mobileMenu.classList.add("border-b-4", "border-dark-grey")
-  } else {
+  } else if(scrollPosition <= 500) {
     header.classList.add('opacity-90')
     header.classList.remove("opacity-100")
     smallHeaderButton.classList.remove("border-b-4", "border-dark-grey")
     mobileMenu.classList.remove("border-b-4", "border-dark-grey")
-  }
+  } 
 })
+
