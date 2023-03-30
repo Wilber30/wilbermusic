@@ -18,6 +18,10 @@
     p {
       @apply font-Line;
     }
+    h2 {
+      @apply font-Line;
+      font-size: 30px;
+    }
     .full-bleed {
     box-shadow: 0 0 0 100vmax #565584;
     clip-path: inset(0 -100vmax); 
