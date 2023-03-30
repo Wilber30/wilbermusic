@@ -24,4 +24,5 @@
     </div>
   </div>
 </body>
- 
+
+<script src="/src/js/contact.js" defer></script>
