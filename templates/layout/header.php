@@ -28,13 +28,13 @@
         </h2>
 
         <ul class="mb-4">
-            <li><a href="#" class="mb-4 hover:opacity-80 inline-block">Home</a></li>
+            <li><a href="/index.php" class="mb-4 hover:opacity-80 inline-block">Home</a></li>
 
-            <li><a href="#" class="mb-4 hover:opacity-80 inline-block">About Me</a></li>
+            <li><a href="/templates/about.php" class="mb-4 hover:opacity-80 inline-block">About Me</a></li>
 
-            <li><a href="#" class="mb-4 hover:opacity-80 inline-block">Latest Videos</a></li>
+            <li><a href="/index.php#latest-videos" class="mb-4 hover:opacity-80 inline-block">Latest Videos</a></li>
             
-            <li><a href="#" class="mb-4 hover:opacity-80 inline-block">Contact</a></li>
+            <li><a href="/templates/contact.php" class="mb-4 hover:opacity-80 inline-block">Contact</a></li>
         </ul>
 
         <div class="flex justify-center gap-5 text-xl mb-4">
