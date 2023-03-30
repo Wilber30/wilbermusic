@@ -44,5 +44,4 @@
       </section>
       <?php include 'templates/layout/footer.php' ?>
     </div>
-  </div>
 </body> 
