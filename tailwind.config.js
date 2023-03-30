@@ -30,6 +30,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-banner': "url('/assets/images/My favourite.JPG')",
+        'about-hero': "url('/assets/images/instruments.JPG')"
+      },
+      maxWidth: {
+        '2/5': '40%',
       },
       keyframes: {
         'fade-in-text': {
