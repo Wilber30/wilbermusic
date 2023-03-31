@@ -16,18 +16,24 @@
             </div>
 					</div>
 				</div>
-			<div class="container mx-auto">
-				<div>
-					<div class="flex flex-row justify-around mt-4 mb-8">
-						<div class="max-w-2/5">
-							<?php include 'content/about-me.php' ?>
-						</div>	
-						<div class="max-w-2/5 mt-12">
-							<img src="../assets/images/stock.jpeg" alt="placeholder">
+				<div class="bg-off-white full-bleed">
+					<div class="container mx-auto">
+						<div class="flex flex-row justify-around pt-4 lg:mb-8">
+							<div class="max-w-2/5">
+								<?php include 'content/about-me.php' ?>
+							</div>	
+							<div class="max-w-2/5 mt-12">
+								<img src="../assets/images/stock.jpeg" alt="placeholder">
+							</div>
+						</div>
+
+						<div class="flex justify-center pb-8 lg:pb-4">
+							<div class="max-w-[90%]">
+								<?php include 'content/about-2.php' ?>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
 		</div>
 		<?php include 'layout/footer.php' ?>
 	</div>
