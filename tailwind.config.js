@@ -17,6 +17,7 @@ module.exports = {
       'biscuit': '#F2D2BD',
       'white': '#ffffff',
       'whitesmoke': '#f5f5f5',
+      'off-white': '#fff5f5',
       'purple': '#3f3cbb',
       'midnight': '#121063',
       'metal': '#565584',
