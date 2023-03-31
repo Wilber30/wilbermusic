@@ -28,7 +28,7 @@
         </div>
       </div>
       <section>
-        <div class="text-center py-10 bg-whitesmoke">
+        <div class="text-center py-10 bg-off-white">
           <div class="container sm:mx-auto">
             <div class="md:border-b-4 md:border-dark-grey/50 md:border-solid"> 
               <h1 id="latest-videos" class="font-Special mb-7 text-white font-outline-2 text-4xl lg:text-5xl">Latest Videos</h1>
