@@ -1,5 +1,5 @@
 <?php include 'layout/contact_head.php' ?>
-<body class="w-screen overflow-x-hidden">
+<body id="body" class="w-screen overflow-x-hidden">
   <div class="full relative">
     <div id="cover" class="absolute h-full z-30 hidden bg-black/50 w-screen"></div>
       <div class="relative">
