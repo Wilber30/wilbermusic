@@ -767,6 +767,26 @@ h2 {
   width: 91.666667%;
 }
 
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
 .max-w-2\/5 {
   max-width: 40%;
 }
@@ -985,8 +1005,20 @@ h2 {
   padding-bottom: 2rem;
 }
 
+.pt-0 {
+  padding-top: 0px;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .font-Special {
@@ -1285,6 +1317,18 @@ h2 {
 }
 
 @media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:max-w-2\/5 {
+    max-width: 40%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1299,6 +1343,10 @@ h2 {
 
   .md\:border-dark-grey\/50 {
     border-color: rgb(120 120 120 / 0.5);
+  }
+
+  .md\:p-5 {
+    padding: 1.25rem;
   }
 }
 
@@ -1320,6 +1368,10 @@ h2 {
     margin-bottom: 1rem;
   }
 
+  .lg\:mt-48 {
+    margin-top: 12rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -1334,6 +1386,10 @@ h2 {
 
   .lg\:h-\[40vh\] {
     height: 40vh;
+  }
+
+  .lg\:w-\[80\%\] {
+    width: 80%;
   }
 
   .lg\:border-t-2 {
