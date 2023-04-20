@@ -1,11 +1,11 @@
 <div class="lg:border-t-2 lg:border-grey lg:my-4">
     <p class="lg:hidden">
-        Alongside his multi-instrumental compositions, he also writes and arranges solo finger-style guitar instrumentals. 
-		Wilber’s guitar technique initially derived from listening to country-blues guitarists of early twentieth century; 
-		in particular the wonderful finger-picking of Mississippi John Hurt. However, Wilber has since arranged pieces in a 
-		wide variety of styles, using different types of acoustic guitar. 
+			Alongside my multi-instrumental compositions, I also write and arrange solo finger-style guitar instrumentals. 
+			My guitar technique was initially inspired by listening to country-blues guitarists of early twentieth century; 
+			in particular the wonderful finger-picking of Mississippi John Hurt. However, I have since arranged pieces in a 
+			wide variety of styles using many different models of acoustic guitar. 
 		<br><br>
-		<i>The above was written in the third person by Wilber Sears, April 2023</i>
+		<i>Wilber Sears, April 2023</i>
         <br><br>
     </p>
 
