@@ -1,6 +1,6 @@
 <?php include 'templates/layout/head.php' ?>
 
-<body id="body" class="w-screen">
+<body id="body" class="w-screen overflow-x-hidden">
   <div class="full relative">
     <div id="cover" class="absolute h-full z-30 hidden bg-black/50 w-screen"></div>
       <div class="relative">
