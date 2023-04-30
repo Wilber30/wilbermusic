@@ -1,5 +1,5 @@
 <div class="flex flex-row justify-center font-Line">
-  <form class="flex flex-col w-4/5" action="post">
+  <form class="flex flex-col w-4/5">
     <div id="response"></div>
 
     <div id="error"></div>

@@ -15,7 +15,7 @@
                 Contact
             </h1>
 
-            <p class="mb-8">Please feel free to contact me using the form below</p>
+            <p class="mb-8 text-sm text-red">Please note this contact form is a work-in-progress; submitted messages will not receive a response.</p>
 
             <?php include 'components/contact.php' ?>
           </div>
