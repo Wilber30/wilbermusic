@@ -31,8 +31,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'hero-banner': "url('/assets/images/My favourite.JPG')",
-        'about-hero': "url('/assets/images/instruments.JPG')"
+        'hero-banner': "url('/assets/images/favourite.jpeg')",
+        'about-hero': "url('/assets/images/instruments.jpeg')"
       },
       maxWidth: {
         '2/5': '40%',
