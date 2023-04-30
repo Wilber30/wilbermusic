@@ -18,6 +18,7 @@ module.exports = {
       'white': '#ffffff',
       'whitesmoke': '#f5f5f5',
       'off-white': '#fff5f5',
+      'red': '	#EE4B2B',
       'purple': '#3f3cbb',
       'midnight': '#121063',
       'metal': '#565584',
