@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./templates/**/*.{html,php,js}", "./index.php", "./src/js/main.js", "./templates/pages/about.php"],
+  content: ["./templates/**/*.{html,php,js}", "./index.php", "./src/js/main.js", "./src/js/slick-init.js", "./templates/pages/about.php"],
   theme: {
     fontFamily: {
       'Special': ["Shrikhand", 'serif'],
@@ -32,6 +32,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-banner': "url('/assets/images/favourite.jpeg')",
+        'hero-test1': "url('/assets/images/test-photo1.jpeg')",
+        'hero-test2': "url('/assets/images/test-photo2.jpeg')",
         'about-hero': "url('/assets/images/instruments.jpeg')"
       },
       maxWidth: {
