@@ -22,8 +22,8 @@
 							<div class="max-w-[90%] md:max-w-2/5">
 								<?php include 'content/about-me.php' ?>
 							</div>	
-							<div class="hidden md:block max-w-2/5 mt-12">
-								<img src="../assets/images/stock.jpeg" alt="placeholder">
+							<div class="hidden md:block lg:flex flex-col justify-center max-w-2/5 mt-12">
+								<img src="../assets/images/circular_sears.png" alt="placeholder">
 							</div>
 						</div>
 
