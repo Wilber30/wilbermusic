@@ -1,20 +1,45 @@
 var secretKey = config.SECRET_KEY;
 
-fetch("https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UC9kU2JIBBbaHq8DD66_k_vA&maxResults=2&order=date&key="+secretKey)
+fetch("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=10&playlistId=PL_z0zoKXOY28rEztLXF3e0fa1yHJ3pFtj&key="+secretKey)
+ 
 .then((result) => {
   return result.json()
 }).then((data)=> {
   console.log(data)
   let videos = data.items
-  let videoContainer = document.querySelector(".youtube-container")
-  for(video of videos){
-    videoContainer.innerHTML += `
-    <div class="latest-video flex flex-col">
-      <iframe id="player" type="text/html" height="390" 
-      src="https://www.youtube.com/embed/${video.id.videoId}" ></iframe>
+  let videoContainer = document.querySelector(".youtube-container1")
 
-      <h3 class="video-header font-Line text-xl">${video.snippet.title}</h3> 
-    </div>
+  for(video of videos){
+    videoContainer.innerHTML += 
+    `
+      <div class="latest-video flex flex-col">
+        <iframe id="player" type="text/html" height="390" 
+        src="https://www.youtube.com/embed/${video.snippet.resourceId.videoId}"></iframe>
+
+        <h3 class="video-header font-Line text-xl">${video.snippet.title}</h3> 
+      </div>
+    `
+  }
+})
+
+fetch("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=10&playlistId=PL_z0zoKXOY28APzPlJYLFdKjUQPKT6pxc&key="+secretKey)
+
+.then((result) => {
+  return result.json()
+}).then((data)=> {
+  console.log(data)
+  let videos = data.items
+  let videoContainer = document.querySelector(".youtube-container2")
+
+  for(video of videos){
+    videoContainer.innerHTML += 
+    `
+      <div class="latest-video flex flex-col">
+        <iframe id="player" type="text/html" height="390" 
+        src="https://www.youtube.com/embed/${video.snippet.resourceId.videoId}"></iframe>
+
+        <h3 class="video-header font-Line text-xl">${video.snippet.title}</h3> 
+      </div>
     `
   }
 })
