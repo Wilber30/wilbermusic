@@ -8,20 +8,20 @@
       </div>
     </div>
 
-      <div class="mt-5">
-        <h2 class="p-3 text-2xl lg:text-3xl">Multi-Instrumental</h2>
-      </div>
+    <div class="mt-5">
+      <h2 class="p-3 text-2xl lg:text-3xl">Multi-Instrumental</h2>
+    </div>
 
-      <div>
+    <div>
         <div class="youtube-container1 flex flex-col md:flex-row gap-6 items-center justify-center mt-4 mb-8"></div>
     </div>
 
     <div class="mt-5">
         <h2 class="p-3 text-2xl lg:text-3xl">Guitar</h2>
-      </div>
+    </div>
 
-      <div>
-        <div class="youtube-container2 flex flex-col md:flex-row gap-6 items-center justify-center mt-4 mb-8"></div>
+    <div>
+      <div class="youtube-container2 flex flex-col md:flex-row gap-6 items-center justify-center mt-4 mb-8"></div>
     </div>
   </div>
 </div>
