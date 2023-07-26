@@ -21,8 +21,8 @@ const initApp = () => {
 			mobileMenu.classList.toggle('toggle-header')
       mobileMenu.classList.toggle('is-active')
 			smallHeaderButton.classList.add('bg-antique')
-      smallHeaderButton.classList.toggle("border-b-4", "border-dark-grey")
-      smallHeaderButton.classList.toggle("border-none")
+      // smallHeaderButton.classList.toggle("border-b-4", "border-dark-grey")
+      // smallHeaderButton.classList.toggle("border-none")
       overlay.classList.toggle('!flex')
     }
 
@@ -47,19 +47,19 @@ const header = document.getElementById('header-section')
 const smallHeaderButton = document.getElementById('sm-header-button')
 const mobileMenu = document.getElementById('mobile-menu')
 
-window.addEventListener('scroll', () => {
-  let scrollPosition = window.scrollY + 80;
+// window.addEventListener('scroll', () => {
+//   let scrollPosition = window.scrollY + 80;
 
-  if(scrollPosition >= 500) {
-    header.classList.add("opacity-100")
-    header.classList.remove("opacity-90")
-    smallHeaderButton.classList.add("border-b-4", "border-dark-grey")
-    mobileMenu.classList.add("border-b-4", "border-dark-grey")
-  } else if(scrollPosition <= 500) {
-    header.classList.add('opacity-90')
-    header.classList.remove("opacity-100")
-    smallHeaderButton.classList.remove("border-b-4", "border-dark-grey")
-    mobileMenu.classList.remove("border-b-4", "border-dark-grey")
-  } 
-})
+//   if(scrollPosition >= 500) {
+//     header.classList.add("opacity-100")
+//     header.classList.remove("opacity-90")
+//     smallHeaderButton.classList.add("border-b-4", "border-dark-grey")
+//     mobileMenu.classList.add("border-b-4", "border-dark-grey")
+//   } else if(scrollPosition <= 500) {
+//     header.classList.add('opacity-90')
+//     header.classList.remove("opacity-100")
+//     smallHeaderButton.classList.remove("border-b-4", "border-dark-grey")
+//     mobileMenu.classList.remove("border-b-4", "border-dark-grey")
+//   } 
+// })
 
