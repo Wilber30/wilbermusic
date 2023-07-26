@@ -18,12 +18,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Roboto+Slab:wght@500;600;700&family=Shrikhand&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Codystar&display=swap" rel="stylesheet">
+      
   <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
   <script src="/src/js/main.js" defer></script>
   <script type="text/javascript" src="/src/js/config.js"></script>
   <script src="/../node_modules/slick-carousel/slick/slick.js"></script>
   <script src="/src/js/video-player.js"></script>
   <script src="/src/js/slick-init.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
 
 </head> 
