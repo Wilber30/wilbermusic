@@ -8,19 +8,21 @@ fetch("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxR
   console.log(data)
   let videos = data.items
   let videoContainer = document.querySelector(".youtube-container1")
-
-  for(video of videos){
+  
+  for(video of videos) {
     videoContainer.innerHTML += 
     `
-      <div class="latest-video flex flex-col">
+      <li class="latest-video flex flex-col border-dark-sea-green border-solid">
         <iframe id="player" type="text/html" height="390" 
         src="https://www.youtube.com/embed/${video.snippet.resourceId.videoId}"></iframe>
 
-        <h3 class="video-header font-Line text-xl">${video.snippet.title}</h3> 
-      </div>
+        <h3 class="video-header font-Line text-lg">${video.snippet.title}</h3> 
+      </li>
     `
   }
 })
+
+
 
 fetch("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=10&playlistId=PL_z0zoKXOY28APzPlJYLFdKjUQPKT6pxc&key="+secretKey)
 
@@ -38,7 +40,7 @@ fetch("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxR
         <iframe id="player" type="text/html" height="390" 
         src="https://www.youtube.com/embed/${video.snippet.resourceId.videoId}"></iframe>
 
-        <h3 class="video-header font-Line text-xl">${video.snippet.title}</h3> 
+        <h3 class="video-header font-Line text-lg">${video.snippet.title}</h3> 
       </div>
     `
   }
