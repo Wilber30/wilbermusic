@@ -1,4 +1,6 @@
 <div class="relative flex justify-center text-center pb-16 bg-antique-white">
+  <div id="video-cover" class="absolute h-full z-30 hidden bg-black/50 w-screen"></div>
+
   <div class="hidden lg:block h-[70%] w-[40%] absolute mt-5 top-[-10%] left-[-110%] lg:left-[-45%] xl:left-[-35%] lg:rotate-[50deg]">
     <img src="../assets/images/leafy-tree.png" alt="abstract tree">
   </div>
@@ -14,7 +16,7 @@
   <div class="video-container mx-auto">
     <div class="title-wrapper flex justify-center">
       <div class="w-full mt-6 mb-2 lg:mt-10 lg:mb-7 h-[15vh] flex flex-col items-center justify-center">
-        <h1 id="latest-videos" class="font-Star text-viridian font-extrabold text-[58px] lg:text-[68px]">
+        <h1 id="latest-videos" class="font-Star text-viridian font-extrabold text-[38px] md:text-[58px] lg:text-[68px]">
           Latest Videos
         </h1>
       </div>
