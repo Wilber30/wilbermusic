@@ -23,9 +23,9 @@
       </button>
     </div>  
     <div class="origin-top relative text-white">
-      <nav id="mobile-menu" class="w-[60%] sm:w-[40%] fixed right-[20%] sm:right-[30%] flex flex-col justify-evenly gap-4 text-center  
+      <nav id="mobile-menu" class="w-[60%] sm:w-[40%] fixed top-0 right-[20%] sm:right-[30%] flex flex-col justify-evenly gap-4 text-center  
           -translate-y-[120%] transition-all ease-in-out duration-500
-          border-dotted border-2 border-white rounded-lg bg-leaves bg-contain p-5">
+          border-dotted border-2 border-white rounded-lg bg-dark-slate-grey bg-contain p-5">
 
         <h2 class="text-[24px] sm:text-3xl md:text-4xl font-Special font-outline-small">
             Wilber Sears

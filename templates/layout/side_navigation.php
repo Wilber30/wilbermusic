@@ -18,7 +18,7 @@
       </div>
     </button>
   </div>
-  <div id="side-nav" class="flex justify-center bg-cover bg-leaves text-white pt-10 opacity-90 
+  <div id="side-nav" class="flex justify-center bg-cover bg-dark-slate-grey text-white pt-10 opacity-90 
           w-11/12 xl:w-full translate-x-full transition-all ease-in-out duration-500
           border-solid border-l-2 border-dark-grey">
     <nav class="flex justify-evenly flex-col">
