@@ -24,6 +24,7 @@ const initApp = () => {
       bannerHeading.classList.toggle('animate-fade-in-text')
 			mobileMenu.classList.toggle('toggle-header')
       mobileMenu.classList.toggle('is-active')
+      mobileMenu.classList.toggle('!top-[15%]')
       overlay.classList.toggle('!flex')
       videoOverlay.classList.toggle('!flex')
       footerOverlay.classList.toggle('!flex')
