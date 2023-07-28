@@ -55,7 +55,9 @@ module.exports = {
         'wood-grain': "url('/assets/images/woodgrain-1.jpg')",
         'wood-grain-2': "url('/assets/images/woodgrain-2.jpg')",
         'wood-grain-3': "url('/assets/images/woodgrain-3.jpg')",
-        'leaves': "url('/assets/images/leaves-bg.jpg')"
+        'leaves': "url('/assets/images/leaves-bg.jpg')",
+        'leaves-2': "url('/assets/images/leaves-2.jpg')",
+        'wood-diamond': "url('/assets/images/woody-diamond.jpg')"
       },
       maxWidth: {
         '2/5': '40%',

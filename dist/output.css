@@ -1022,6 +1022,10 @@ h2 {
   background-image: url('/assets/images/leaves-bg.jpg');
 }
 
+.bg-wood-diamond {
+  background-image: url('/assets/images/woody-diamond.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
