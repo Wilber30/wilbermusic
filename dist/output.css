@@ -735,12 +735,12 @@ h2 {
   display: none;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .h-screen {
   height: 100vh;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .h-\[45vh\] {
@@ -1132,11 +1132,6 @@ h2 {
 .\!text-black {
   --tw-text-opacity: 1 !important;
   color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
-}
-
-.text-laurel {
-  --tw-text-opacity: 1;
-  color: rgb(169 186 157 / var(--tw-text-opacity));
 }
 
 .text-viridian {
