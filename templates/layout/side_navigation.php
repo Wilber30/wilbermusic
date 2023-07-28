@@ -18,30 +18,31 @@
       </div>
     </button>
   </div>
-  <div id="side-nav" class="flex justify-center bg-antique pt-10 opacity-90 w-11/12 xl:w-full translate-x-full transition-all ease-in-out duration-500">
+  <div id="side-nav" class="flex justify-center bg-cover bg-leaves text-white pt-10 opacity-90 
+          w-11/12 xl:w-full translate-x-full transition-all ease-in-out duration-500
+          border-solid border-l-2 border-dark-grey">
     <nav class="flex justify-evenly flex-col">
-      <div>
-        <ul class="text-center">
+      <ul class="text-center">
 
-          <li><a href="/index.php" class="mb-10 hover:opacity-80 inline-block">Home</a></li>
+        <li><a href="/index.php" class="mb-10 hover:opacity-80 inline-block">Home</a></li>
 
-          <li><a href="/templates/about.php" class="mb-10 hover:opacity-80 inline-block">About Me</a></li>
+        <li><a href="/templates/about.php" class="mb-10 hover:opacity-80 inline-block">About Me</a></li>
 
-          <li><a href="/index.php#latest-videos" class="mb-10 hover:opacity-80 inline-block">Latest Videos</a></li>
-          
-          <li><a href="/templates/contact.php" class="mb-10 hover:opacity-80 inline-block">Contact</a></li>
+        <li><a href="/index.php#latest-videos" class="mb-10 hover:opacity-80 inline-block">Latest Videos</a></li>
+        
+        <li><a href="/templates/contact.php" class="mb-10 hover:opacity-80 inline-block">Contact</a></li>
 
-        </ul>
+      </ul>
 
-        <div class="flex justify-center gap-5 text-2xl my-4">
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <div class="flex justify-center gap-5 text-2xl my-4">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
 
-          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
 
-          <a href="#"><i class="fa-brands fa-youtube"></i></a>
-        </div>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
       </div>
-      <p class="text-center">&#169;Bellybones Records <br> 2023</p>
+      
+      <p class="text-center">&#169;WilberMusic 2023</p>
     </nav>
   </div>
 </div>

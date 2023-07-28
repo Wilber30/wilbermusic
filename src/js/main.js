@@ -5,6 +5,9 @@ const initApp = () => {
     const mobileMenu = document.getElementById('mobile-menu')
     const bannerHeading = document.getElementById('banner-heading')
     const smallHeaderButton = document.getElementById('sm-header-button')
+    const videoOverlay = document.getElementById('video-cover')
+    const footerOverlay = document.getElementById('footer-cover')
+    const burgerBars = document.getElementById('burger-bars')
 
     // Side-nav variables
     const largeBurgerBtn = document.getElementById('lg-hamburger-button')
@@ -15,15 +18,15 @@ const initApp = () => {
 
     const toggleMenu = () => {
 			smallHamburgerBtn.classList.toggle('toggle-btn')
+      burgerBars.classList.toggle('outline')
 			bannerHeading.classList.toggle('flex')
 			bannerHeading.classList.toggle('hidden')
       bannerHeading.classList.toggle('animate-fade-in-text')
 			mobileMenu.classList.toggle('toggle-header')
       mobileMenu.classList.toggle('is-active')
-			smallHeaderButton.classList.add('bg-antique')
-      // smallHeaderButton.classList.toggle("border-b-4", "border-dark-grey")
-      // smallHeaderButton.classList.toggle("border-none")
       overlay.classList.toggle('!flex')
+      videoOverlay.classList.toggle('!flex')
+      footerOverlay.classList.toggle('!flex')
     }
 
     const toggleNav = () => {
@@ -31,14 +34,18 @@ const initApp = () => {
 			sideNav.classList.toggle('toggle-nav')
       wholeNavSection.classList.toggle('!right-0')
       overlay.classList.toggle('!flex')
+      videoOverlay.classList.toggle('!flex')
+      footerOverlay.classList.toggle('!flex')
       body.classList.toggle('fixed')
     }
 
     smallHamburgerBtn.addEventListener('click', toggleMenu)
     mobileMenu.addEventListener('click', toggleMenu)
+    overlay.addEventListener('click',toggleMenu)
+    videoOverlay.addEventListener('click',toggleMenu)
+    footerOverlay.addEventListener('click',toggleMenu)
     largeBurgerBtn.addEventListener('click', toggleNav)
     sideNav.addEventListener('click', toggleNav)
-
 }
 
 document.addEventListener('DOMContentLoaded', initApp)

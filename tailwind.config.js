@@ -11,6 +11,7 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
+      'white-transparent': 'rgba(255,255,255, 0.7)',
       'antique': '#faebd7',
       'khaki': '#bdb76b',
       'old-gold': '#CFB53B',
@@ -42,13 +43,21 @@ module.exports = {
       'dark-laurel': '#869e75',
       'darkest-laurel': '#6A6C3C',
       'leafy': '#009353',
+      'firebrick': '#b22222',
+      'salmon': '#BF565A',
     },
     extend: {
       backgroundImage: {
         'hero-banner': "url('/assets/images/favourite.jpeg')",
         'hero-test1': "url('/assets/images/test-photo1.jpeg')",
         'hero-test2': "url('/assets/images/test-photo2.jpeg')",
-        'about-hero': "url('/assets/images/instruments.jpeg')"
+        'about-hero': "url('/assets/images/instruments.jpeg')",
+        'wood-grain': "url('/assets/images/woodgrain-1.jpg')",
+        'wood-grain-2': "url('/assets/images/woodgrain-2.jpg')",
+        'wood-grain-3': "url('/assets/images/woodgrain-3.jpg')",
+        'leaves': "url('/assets/images/leaves-bg.jpg')",
+        'leaves-2': "url('/assets/images/leaves-2.jpg')",
+        'wood-diamond': "url('/assets/images/woody-diamond.jpg')"
       },
       maxWidth: {
         '2/5': '40%',

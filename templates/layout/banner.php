@@ -11,8 +11,8 @@
 
 	<div class="container mx-auto absolute bottom-6">
 		<div class="flex justify-center">
-			<button class="bg-transparent hover:bg-blue-500 text-white font-semibold hover:text-white 
-				py-2 px-8 border border-gray-500 hover:border-transparent rounded">
+			<button class="bg-transparent hover:bg-white-transparent hover:text-viridian text-white font-semibold  
+				py-2 px-8 border-2 border-viridian rounded">
 				<a href="index.php#latest-videos">Listen Now</a>
 			</button>
 		</div>
