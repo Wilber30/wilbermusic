@@ -45,6 +45,7 @@ module.exports = {
       'leafy': '#009353',
       'firebrick': '#b22222',
       'salmon': '#BF565A',
+      'dark-slate-grey': '#2f4f4f',
     },
     extend: {
       backgroundImage: {
