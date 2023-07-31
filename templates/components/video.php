@@ -1,7 +1,7 @@
 <div id="video-section" class="relative flex justify-center text-center bg-dark-slate-grey">
   <div id="video-cover" class="absolute h-full z-30 hidden bg-black/50 w-screen"></div>
 
-  <div class="hidden lg:block h-[70%] w-[40%] absolute mt-5 top-[-5%] left-[-110%] lg:left-[-45%] xl:left-[-35%] lg:rotate-[50deg]">
+  <div class="first-tree hidden lg:block h-[70%] w-[40%] absolute mt-5 top-[-5%] left-[-110%] lg:rotate-[50deg]">
     <img src="../assets/images/brown-leafy-tree.png" alt="abstract tree">
   </div>
 
@@ -22,12 +22,12 @@
       </div>
     </div>
 
-    <div class="video-wrapper w-full flex justify-center flex-col items-center">
+    <div id="video-main" class="video-wrapper w-full flex justify-center flex-col items-center">
       <div class="flex flex-row items-center text-biscuit">
         <h2 class="font-Button p-3 text-xl lg:text-2xl">Multi-Instrumental</h2>
 
         <div class="flex flex-row gap-2">
-          <img class="h-[35px] w-[35px]" src="../assets/images/icons/brown-xylophone.png" alt="xylophone">
+          <img class="h-[35px] w-[35px]" src="../assets/images/icons/brownier-xylophone.png" alt="xylophone">
 
           <img class="h-[35px] w-[35px]" src="../assets/images/icons/browny-dulcimer.png" alt="dulcimer">
         </div>
