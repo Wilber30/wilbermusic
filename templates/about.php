@@ -1,7 +1,8 @@
 <?php include 'layout/contact_head.php' ?>
 <body id="body" class="w-screen overflow-x-hidden">
   <div class="full relative">
-    <div id="cover" class="absolute h-full z-30 hidden bg-black/50 w-screen"></div>
+    <div id="about-overlay-mobile" class="absolute h-full z-30 hidden bg-black/50 w-screen"></div>
+		<div id="cover" class="absolute h-full z-30 hidden bg-black/50 w-screen"></div>
       <div class="relative">
         <div class="h-[45vh] lg:h-[40vh] bg-cover bg-bottom bg-about-hero">
 					<?php include 'layout/header.php' ?>
@@ -16,7 +17,7 @@
             </div>
 					</div>
 				</div>
-				<div class="bg-off-white full-bleed">
+				<div class="bg-dark-slate-grey full-bleed">
 					<div class="container mx-auto">
 						<div class="flex flex-row justify-around pt-4 lg:mb-8">
 							<div class="max-w-[90%] md:max-w-2/5">
