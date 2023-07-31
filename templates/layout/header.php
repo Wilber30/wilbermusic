@@ -37,7 +37,7 @@
 
           <li class="text-[16px] sm:text-lg"><a href="/templates/about.php" class="mb-4 hover:opacity-80 inline-block">About Me</a></li>
 
-          <li class="text-[16px] sm:text-lg"><a href="/index.php#latest-videos" class="mb-4 hover:opacity-80 inline-block">Latest Videos</a></li>
+          <li class="text-[16px] sm:text-lg"><a href="/index.php#video-section" class="mb-4 hover:opacity-80 inline-block">Latest Videos</a></li>
           
           <li class="text-[16px] sm:text-lg"><a href="/templates/contact.php" class="mb-4 hover:opacity-80 inline-block">Contact</a></li>
         </ul>
