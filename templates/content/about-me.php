@@ -1,4 +1,4 @@
-<div>
+<div class="text-wheat">
 	<h2 class="mt-4 lg:my-4">Who am I?</h2>
 	<p>
     I am a multi-instrumentalist and solo guitarist based in Oxfordshire. My music is not tied exclusively 

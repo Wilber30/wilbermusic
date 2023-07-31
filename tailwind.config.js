@@ -46,6 +46,7 @@ module.exports = {
       'firebrick': '#b22222',
       'salmon': '#BF565A',
       'dark-slate-grey': '#2f4f4f',
+      'wheat': '#F5DEB3',
     },
     extend: {
       backgroundImage: {
