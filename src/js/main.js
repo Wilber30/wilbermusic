@@ -5,6 +5,7 @@ const initApp = () => {
     const mobileMenu = document.getElementById('mobile-menu')
     const bannerHeading = document.getElementById('banner-heading')
     const smallHeaderButton = document.getElementById('sm-header-button')
+    const overlayMobile = document.getElementById('coverMobile')
     const videoOverlay = document.getElementById('video-cover')
     const footerOverlay = document.getElementById('footer-cover')
     const burgerBars = document.getElementById('burger-bars')
@@ -13,8 +14,9 @@ const initApp = () => {
     const largeBurgerBtn = document.getElementById('lg-hamburger-button')
     const sideNav = document.getElementById('side-nav')
     const wholeNavSection = document.getElementById('whole-nav-section')
-    const overlay = document.getElementById('cover')
     const body = document.getElementById('body')
+    const overlay = document.getElementById('cover')
+
 
     const toggleMenu = () => {
 			smallHamburgerBtn.classList.toggle('toggle-btn')
@@ -25,7 +27,7 @@ const initApp = () => {
 			mobileMenu.classList.toggle('toggle-header')
       mobileMenu.classList.toggle('is-active')
       mobileMenu.classList.toggle('!top-[15%]')
-      overlay.classList.toggle('!flex')
+      overlayMobile.classList.toggle('!flex')
       videoOverlay.classList.toggle('!flex')
       footerOverlay.classList.toggle('!flex')
     }
@@ -42,9 +44,10 @@ const initApp = () => {
 
     smallHamburgerBtn.addEventListener('click', toggleMenu)
     mobileMenu.addEventListener('click', toggleMenu)
-    overlay.addEventListener('click',toggleMenu)
+    overlayMobile.addEventListener('click', toggleMenu)
     videoOverlay.addEventListener('click',toggleMenu)
     footerOverlay.addEventListener('click',toggleMenu)
+    overlay.addEventListener('click',toggleNav)
     largeBurgerBtn.addEventListener('click', toggleNav)
     sideNav.addEventListener('click', toggleNav)
 }

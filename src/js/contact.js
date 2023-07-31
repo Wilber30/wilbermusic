@@ -4,6 +4,8 @@ const initApp = () => {
     const smallHamburgerBtn = document.getElementById('sm-hamburger-button')
     const mobileMenu = document.getElementById('mobile-menu')
     const smallHeaderButton = document.getElementById('sm-header-button')
+    const aboutOverlayMobile = document.getElementById('about-overlay-mobile')
+    const burgerBars = document.getElementById('burger-bars')
 
     // Side-nav variables
     const largeBurgerBtn = document.getElementById('lg-hamburger-button')
@@ -17,7 +19,8 @@ const initApp = () => {
 	  mobileMenu.classList.toggle('toggle-header')
     mobileMenu.classList.toggle('is-active')
 	  smallHeaderButton.classList.add('bg-antique')
-    overlay.classList.toggle('!flex')
+    aboutOverlayMobile.classList.toggle('!flex')
+    burgerBars.classList.toggle('outline')
     }
 
     const toggleNav = () => {
@@ -30,9 +33,10 @@ const initApp = () => {
 
     smallHamburgerBtn.addEventListener('click', toggleMenu)
     mobileMenu.addEventListener('click', toggleMenu)
+    aboutOverlayMobile.addEventListener('click', toggleMenu)
     largeBurgerBtn.addEventListener('click', toggleNav)
     sideNav.addEventListener('click', toggleNav)
-
+    overlay.addEventListener('click', toggleNav)
 }
 
 document.addEventListener('DOMContentLoaded', initApp)
