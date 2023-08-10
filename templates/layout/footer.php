@@ -1,4 +1,4 @@
-<footer class="relative h-full bg-dark-grey">
+<footer id="footer" class="relative bg-dark-grey">
   <div id="footer-cover" class="absolute h-full z-30 hidden bg-black/50 w-screen"></div>
     <div class="container mx-auto text-center py-5 text-white">
       <div class="flex justify-center gap-5 text-4xl mb-4">
