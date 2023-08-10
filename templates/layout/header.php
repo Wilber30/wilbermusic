@@ -21,7 +21,8 @@
           after:outline afteroutline-2 after:outline-dark-grey">
         </div>
       </button>
-    </div>  
+    </div> 
+    
     <div class="origin-top relative text-white">
       <nav id="mobile-menu" class="w-[60%] sm:w-[40%] fixed top-0 right-[20%] sm:right-[30%] flex flex-col justify-evenly gap-4 text-center  
           -translate-y-[120%] transition-all ease-in-out duration-500
@@ -52,6 +53,6 @@
 
         <p class="text-[16px] sm:text-lg">&#169;WilberMusic 2023</p>
       </nav>
-    </div>
+    </div> 
   </section>
 </div> 
