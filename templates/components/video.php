@@ -1,15 +1,16 @@
-<div id="video-section" class="relative flex justify-center text-center bg-dark-slate-grey">
+<section id="video-section" class="relative overflow-hidden">
+<div class="flex justify-center text-center bg-dark-slate-grey">
   <div id="video-cover" class="absolute h-full z-30 hidden bg-black/50 w-screen"></div>
 
-  <div class="first-tree hidden lg:block h-[70%] w-[40%] absolute mt-5 top-[-5%] left-[-110%] lg:rotate-[50deg]">
+  <div class="first-tree hidden lg:block h-[70%] w-[40%] absolute mt-5 top-[5%] left-[-110%] lg:rotate-[50deg]">
     <img src="../assets/images/brown-leafy-tree.png" alt="abstract tree">
   </div>
 
-  <div class="hidden lg:block h-[70%] w-[40%] absolute mt-5 bottom-[-10%] right-[-60%] lg:right-[-30%]">
+  <div class="hidden lg:block h-[70%] w-[40%] absolute mt-5 top-[45%] right-[-60%] lg:right-[-30%]">
     <img src="../assets/images/brown-leafy-tree.png" alt="abstract tree">
   </div>
 
-  <div class="hidden lg:block h-[70%] w-[40%] absolute mt-5 bottom-[-20%] left-[-110%] lg:left-[-55%] xl:left-[-45%] lg:rotate-[80deg]">
+  <div class="hidden lg:block h-[70%] w-[40%] absolute mt-5 top-[45%] lg:left-[-55%] xl:left-[-45%] lg:rotate-[80deg]">
     <img src="../assets/images/brown-leafy-tree.png" alt="abstract tree">
   </div>
 
@@ -74,3 +75,4 @@
     </div>
   </div>
 </div>
+</section>
