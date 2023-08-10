@@ -114,7 +114,7 @@ html {
 
 .slider-nav {
   visibility: visible !important;
-  opacity: 1;
+  opacity: 1; 
 }
 
 #side-nav {
@@ -141,10 +141,21 @@ html {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1400px) and (max-width: 1499px) {
   .first-tree {
     left: -38% !important;
-    top: 0% !important;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1599px) {
+  .first-tree {
+    left: -35% !important;
+  }
+}
+
+@media (min-width: 1600px) {
+  .first-tree {
+    left: -32% !important;
   }
 }
 
